@@ -1,0 +1,53 @@
+/* div {
+    display: block;
+    text-align: center;
+} */
+
+/* button {
+    padding: 20px;
+} */
+
+/* #index, #name, #class, #del {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.del {
+    margin: 15px;
+}
+
+.main {
+    display: flex;
+} */
+
+/* .form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 20px;
+    width: 20%;
+    padding: 6px;
+}
+button {
+   padding: 5px;
+   width: 100px;
+} */
+
+.students {
+    display: flex;
+    justify-content: space-around;
+}
+.students > h3 {
+    font-size: 30px;
+}
+.p1, .p2 {
+    font-size: 17px;
+    font-weight: normal;
+}
+.btn {
+    padding: 10px;
+    height: 50px;
+    margin-top: 40px;
+    color: red;
+}

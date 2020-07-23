@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var subject = prompt("enter subject 1");
+      var subject2 = prompt("enter subject 2");
+      var subject3 = prompt("enter subject 3");
+      var subjectMarks = prompt("subject 1 marks");
+        var subject2Marks = prompt("subject 2 marks");
+        var subject3Marks = prompt("subject 3 marks");
+
+      document.write(subject);
+      document.write(subject2);
+      document.write(subject3);
+
+      document.write(subjectMarks);
+
+      document.write(subject2Marks);
+
+      document.write(subject3Marks);
+      var oneSubjectTotal = 100;
+      document.write(oneSubjectTotal);
+      document.write(oneSubjectTotal);
+      document.write(oneSubjectTotal);
+      var allSubjectTotal = 300;
+      document.write(allSubjectTotal);
+      var obtainedMarks = subjectMarks + subject2Marks + subject3Marks;
+      document.write(obtainedMarks);
+      var subject1Percentage = subjectMarks / oneSubjectTotal * 100;
+      document.write(subject1Percentage, "%");
+      var subject2Percentage = subject2Marks / oneSubjectTotal * 100;
+      document.write(subject2Percentage, "%");
+      var subject3Percentage = subject3Marks / oneSubjectTotal * 100;
+      document.write(subject3Percentage, "%");
+      var totalPercentage = (subject1Percentage + subject2Percentage + subject3Percentage) / 3;
+      document.write(totalPercentage, "%");
+    </script>
+
+  </body>
+</html>

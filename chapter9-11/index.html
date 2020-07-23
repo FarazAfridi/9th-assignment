@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="app.js">
+
+    </script>
+  </head>
+  <body>
+    <h1>MARKSHEET</h1>
+    <p><script>
+      var subjectmarks = prompt("enter subject marks");
+      var subject2marks = prompt("enter subject marks");
+      var subject3marks = prompt("enter subject marks");
+
+        var percentage = (Number(subjectmarks) + Number(subject2marks) + Number(subject3marks) )/ 300 * 100;
+
+      var obtainedMarks = Number(subject2marks) + Number(subject3marks) + Number(subjectmarks);
+
+      var totalMarks = 300;
+
+
+
+
+      if (percentage >= 80 ){
+        document.write("Grade: A-one");
+        document.write("Remarks: Excellent");
+
+      } else if (percentage >= 70 ){
+        document.write("Grade: A");
+        document.write("Remarks: Good");
+
+      } else if (percentage >= 60 ){
+        document.write("Grade: B");
+        document.write("Remarks: you need to improve");
+
+      } else if (percentage < 60 ){
+        document.write("Grade: C");
+        document.write(" Remarks: Sorry ");
+      }
+
+
+
+    </script></p>
+
+    <p><script>
+      document.write("percentage", percentage ,"%");
+    </script></p>
+
+    <p><script type="text/javascript">
+      document.write("total marks ", totalMarks);
+    </script></p>
+
+    <p><script>
+      document.write("obtained marks ", obtainedMarks);
+    </script></p>
+
+  </body>
+</html>

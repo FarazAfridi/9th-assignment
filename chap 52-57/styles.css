@@ -1,0 +1,28 @@
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 0 30px;
+}
+.modal {
+    display: flex;
+    flex-direction: row;
+}
+.modal-img {
+    width: 400px;
+    height: 400px;
+
+}
+#image {
+    display: none;
+}
+.modal-btn {
+    opacity: 0.7;
+    margin-left: 370px;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    color: red;
+}
+.modal-btn:hover {
+    background-color: black;
+}
